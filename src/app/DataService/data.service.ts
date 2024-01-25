@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  private apiUrl = "https://localhost:7290/create"; // Replace with your API base URL
+  private apiUrl = "https://localhost:8000/create"; 
 
   constructor(private http: HttpClient) { }
 
