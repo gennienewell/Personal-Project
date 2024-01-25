@@ -16,7 +16,5 @@ namespace GuruSki.API.EntityModels
         
         public string? UserImageUrl { get; set; }
 
-        //public Guid ScheduleId { get; set; }
-        //public Schedule? UserSchedule { get; set; }
     }
 }
