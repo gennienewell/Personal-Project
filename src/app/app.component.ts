@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // Logic Goes here
-  title = 'GuruSki.UI';
+  title = 'Mentor.UI';
 }
