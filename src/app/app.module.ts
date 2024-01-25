@@ -49,8 +49,8 @@ import { ConsultantWidgetComponent } from './Components/consultant-widget/consul
     AppRoutingModule,
     HttpClientModule,
     AuthModule.forRoot({
-      domain: 'dev-xrttup17t6mv305z.us.auth0.com',
-      clientId: 'TBjlifRaFy97ZFiHk0kAe44rCmjxpgOK',
+      domain: '',
+      clientId: '',
       authorizationParams: {
         redirect_uri: window.location.origin
       }
