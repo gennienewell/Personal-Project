@@ -12,7 +12,7 @@ import { PageNotFoundComponent } from './MainContentComponents/page-not-found/pa
 // List of type "Routes"
 const routes: Routes = [
   // Add Routes here
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, // This line sets the default route
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: ProfileComponent, canActivate: [AuthGuard]},
   { path: 'consultants', component: ConsultantsComponent },
   { path: 'conferenceRoom', component: ConferenceRoomComponent, canActivate: [AuthGuard] },
