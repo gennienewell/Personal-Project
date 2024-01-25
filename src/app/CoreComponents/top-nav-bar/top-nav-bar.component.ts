@@ -9,8 +9,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./top-nav-bar.component.css']
 })
 export class TopNavBarComponent {
-  //Processes logic here then passes to the HTML file.
-  //constructor(private auth: AuthService) { }
   constructor(private auth: AuthService, private router: Router) { }
 
   // Login and Logout function with no return info
@@ -23,11 +21,9 @@ export class TopNavBarComponent {
   async logout(): Promise<void> {
     // @ts-ignore
     //this.auth.logout({ returnTo: window.location.origin });
-    this.auth.logout(); // Call the logout method from your authentication service
-    this.router.navigate(['/home']); // Navigate to the home component after logout
+    this.auth.logout(); 
+    this.router.navigate(['/home']); 
   }
 
 
-
-  // The "HTML is what gets rendered to the screen with component is used.-->"
 }
