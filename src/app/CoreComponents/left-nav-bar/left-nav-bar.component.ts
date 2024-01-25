@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./left-nav-bar.component.css']
 })
 export class LeftNavBarComponent {
-  // Logic
 
-  // Pass info to html
 }
