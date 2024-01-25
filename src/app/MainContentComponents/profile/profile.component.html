@@ -1,0 +1,24 @@
+
+<div *ngIf="auth.user$ | async as user">
+  <p>Welcome, {{ user.name }}</p>
+  <p>User ID: {{ user.sub }}</p>
+  <p>Email: {{ user.email }}</p>
+  <p>Given Name: {{ user.given_name }}</p>
+  <p>Family Name: {{ user.family_name }}</p>
+  <p>Nickname: {{ user.nickname }}</p>
+  <img *ngIf="user.picture" [src]="user.picture" alt="Profile Picture">
+</div>
+
+
+
+
+<div>
+  <p>Name: {{ userData.UserName }}</p>
+  <p>ID: {{ userData.UserId }}</p>
+  <p>Email: {{ userData.UserEmail }}</p>
+  <p>Given Name: {{ userData.UserGivenName}}</p>
+  <p>Family Name: {{ userData.UserFamilyName }}</p>
+  <p>Nickname: {{ userData.UserNickname }}</p>
+  <p>Picture: {{ userData.UserPicture}}</p>
+</div>
+

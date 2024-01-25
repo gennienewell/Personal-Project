@@ -1,0 +1,22 @@
+.top-nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1.5rem; /* Vertical , Horizontal*/
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+
